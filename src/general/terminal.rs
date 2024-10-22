@@ -1,7 +1,7 @@
 use crate::ksp::telemetry::Telemetry;
-use crate::State;
 use std::collections::VecDeque;
 use std::io::{stdout, Write};
+use crate::general::state::State;
 
 const CHARS: [&str; 11] = ["─", "│", "╭", "┬", "╮", "├", "┼", "┤", "╰", "┴", "╯"];
 
